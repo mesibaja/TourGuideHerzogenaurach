@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tour Guide Herzogenaurach</string>
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+
+    <string name="category_Rathaus">Rathaus</string>
+
+    <!-- Category name for the first main category -->
+    <string name="category_Leben">Leben</string>
+
+    <!-- Category name for the first main category -->
+    <string name="category_Entdecken">Entdecken</string>
+
+    <!-- Category name for the first main category -->
+    <string name="category_Stadtraum">Stadtraum</string>
+</resources>
