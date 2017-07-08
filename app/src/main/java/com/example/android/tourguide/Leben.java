@@ -19,14 +19,14 @@ protected void onCreate(Bundle savedInstanceState) {
 
     // Create a list of Herzo Information
     ArrayList<Herzo> herzoinfo = new ArrayList<Herzo>();
-    herzoinfo.add(new Herzo("Abfall", "Hundekot"));
-    herzoinfo.add(new Herzo("Neubürger", "Tipps und Hinweise"));
-    herzoinfo.add(new Herzo("Bürgerengagement", "Ehrenamt"));
-    herzoinfo.add(new Herzo("Barrierefreies Leben", "Herzo inklusiv"));
-    herzoinfo.add(new Herzo("Gesundheit", "Gesundheitsamt"));
-    herzoinfo.add(new Herzo("Kinderbetreuung", "Kindertagespflege"));
-    herzoinfo.add(new Herzo("Schulen", "Schulen in Herzogenaurach"));
-    herzoinfo.add(new Herzo("Kirchen und Religiöse Gemeinschaften in Herzogenaurach", "Katholische Kirchen"));
+    herzoinfo.add(new Herzo("Abfall", "Hundekot", R.drawable.leben));
+    herzoinfo.add(new Herzo("Neubürger", "Tipps und Hinweise", R.drawable.leben));
+    herzoinfo.add(new Herzo("Bürgerengagement", "Ehrenamt", R.drawable.leben));
+    herzoinfo.add(new Herzo("Barrierefreies Leben", "Herzo inklusiv", R.drawable.leben));
+    herzoinfo.add(new Herzo("Gesundheit", "Gesundheitsamt", R.drawable.leben));
+    herzoinfo.add(new Herzo("Kinderbetreuung", "Kindertagespflege", R.drawable.leben));
+    herzoinfo.add(new Herzo("Schulen", "Schulen in Herzogenaurach", R.drawable.leben));
+    herzoinfo.add(new Herzo("Kirchen und Religiöse Gemeinschaften in Herzogenaurach", "Katholische Kirchen", R.drawable.leben));
 
     // Create an {@link HerzoAdapter}, whose data source is a list of {@link Herzo}. The
     // adapter knows how to create list items for each item in the list.

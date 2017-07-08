@@ -23,6 +23,11 @@ public class Herzo {
     private String mSubCategory;
 
     /**
+     * Image resource ID for the Category
+     */
+    private int mImageResourceId;
+
+    /**
      * Create a new Herzo object.
      *
      * @param SubCategory  is the subcategory
@@ -31,6 +36,19 @@ public class Herzo {
     public Herzo(String SubCategory, String MainCategory) {
         mSubCategory = SubCategory;
         mMainCategory = MainCategory;
+    }
+
+    /**
+     * Create a new Herzo object.
+     *
+     * @param SubCategory  is the subcategory
+     * @param MainCategory is main category
+     * @param ImageResourceId is the drawable resource ID for the image associated with the categories
+     */
+    public Herzo(String SubCategory, String MainCategory, int ImageResourceId) {
+        mSubCategory = SubCategory;
+        mMainCategory = MainCategory;
+        mImageResourceId = ImageResourceId;
     }
 
     /**
@@ -47,4 +65,10 @@ public class Herzo {
         return mMainCategory;
     }
 
+    /**
+     * Return the image resource ID of the category.
+     */
+    public int getImageResourceId(){
+        return mImageResourceId;
+    }
 }

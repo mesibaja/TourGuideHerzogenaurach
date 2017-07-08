@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -41,6 +42,11 @@ public class HerzoAdapter extends ArrayAdapter<Herzo>{
         // Get the Main Category from the currentHerzoInformationen object and set this text on
         // the Main Category TextView.
         maincategoryTextView.setText(currentHerzo.getmMainCategory());
+
+        // Find the ImageView in the list_item.xml layout with the ID image.
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
+        // Set the ImageView to the image resource specified in the current Word
+        imageView.setImageResource(currentHerzo.getImageResourceId());
 
         // Find the TextView in the list_item.xml layout with the ID default_text_view.
         TextView subcategoryTextView = (TextView) listItemView.findViewById(R.id.subcategory_text_view);

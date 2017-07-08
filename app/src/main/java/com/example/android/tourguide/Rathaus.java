@@ -18,11 +18,11 @@ public class Rathaus extends AppCompatActivity {
 
         // Create a list of Herzo Information
         ArrayList<Herzo> herzoinfo = new ArrayList<Herzo>();
-        herzoinfo.add(new Herzo("Ämter", "Ämterwegweiser"));
-        herzoinfo.add(new Herzo("Amtsblattredaktion", "Übersicht"));
-        herzoinfo.add(new Herzo("Bürgermeister", "Stellvertretende Bürgermeister"));
-        herzoinfo.add(new Herzo("Stadtgeschichte", "Übersicht"));
-        herzoinfo.add(new Herzo("Zahlen", "Arbeitslosenstatistik"));
+        herzoinfo.add(new Herzo("Ämter", "Ämterwegweiser", R.drawable.rathaus));
+        herzoinfo.add(new Herzo("Amtsblattredaktion", "Übersicht", R.drawable.rathaus));
+        herzoinfo.add(new Herzo("Bürgermeister", "Stellvertretende Bürgermeister", R.drawable.rathaus));
+        herzoinfo.add(new Herzo("Stadtgeschichte", "Übersicht", R.drawable.rathaus));
+        herzoinfo.add(new Herzo("Zahlen", "Arbeitslosenstatistik", R.drawable.rathaus));
 
         // Create an {@link HerzoAdapter}, whose data source is a list of {@link Herzo}. The
         // adapter knows how to create list items for each item in the list.
