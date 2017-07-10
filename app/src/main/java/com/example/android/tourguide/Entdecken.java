@@ -6,10 +6,6 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-/**
- * Created by petra on 2017.06.15..
- */
-
 public class Entdecken extends AppCompatActivity{
 
     @Override

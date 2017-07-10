@@ -10,10 +10,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by petra on 2017.06.15..
- */
-
 public class HerzoAdapter extends ArrayAdapter<Herzo>{
     /**
      * Create a new {@link HerzoAdapter} object.

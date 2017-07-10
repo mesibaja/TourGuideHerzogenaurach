@@ -4,10 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Adapter;
 import android.widget.ListView;
+
 import java.util.ArrayList;
-/**
- * Created by petra on 2017.06.15..
- */
 
 public class Rathaus extends AppCompatActivity {
 

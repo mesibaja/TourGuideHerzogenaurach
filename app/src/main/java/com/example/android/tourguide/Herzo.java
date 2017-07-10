@@ -1,11 +1,6 @@
 package com.example.android.tourguide;
 
 /**
- * Created by petra on 2017.06.15..
- */
-
-
-/**
  * {@link Herzo} represents information about Herzogenaurach.
  * It contains a main and subcategory.
  */
@@ -22,10 +17,11 @@ public class Herzo {
      */
     private String mSubCategory;
 
-    /**
-     * Image resource ID for the Category
-     */
-    private int mImageResourceId;
+    /** Image resource ID for the category */
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
+
+    /** Constant value that represents no image was provided for this category */
+    private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
      * Create a new Herzo object.
@@ -70,5 +66,12 @@ public class Herzo {
      */
     public int getImageResourceId(){
         return mImageResourceId;
+    }
+
+    /**
+     * Returns whether or not there is an image for this category.
+     */
+    public boolean hasImage() {
+        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 }

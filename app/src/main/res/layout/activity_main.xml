@@ -13,27 +13,27 @@
         style="@style/CategoryStyle"
         android:background="@color/category_rathaus"
         android:text="@string/category_Rathaus"
-        android:onClick="openRathaus"/>
+        android:onClick="openrathaus"/>
 
     <TextView
         android:id="@+id/leben"
         style="@style/CategoryStyle"
         android:background="@color/category_leben"
         android:text="@string/category_Leben"
-        android:onClick="openLeben"/>
+        android:onClick="openleben"/>
 
     <TextView
         android:id="@+id/entdecken"
         style="@style/CategoryStyle"
         android:background="@color/category_entdecken"
         android:text="@string/category_Entdecken"
-        android:onClick="openEntdecken"/>
+        android:onClick="openentdecken"/>
 
     <TextView
         android:id="@+id/stadtraum"
         style="@style/CategoryStyle"
         android:background="@color/category_stadtraum"
         android:text="@string/category_Stadtraum"
-        android:onClick="openStadtraum"/>
+        android:onClick="openstadtraum"/>
 
 </LinearLayout>
