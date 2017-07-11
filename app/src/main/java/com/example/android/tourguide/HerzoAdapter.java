@@ -10,11 +10,11 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class HerzoAdapter extends ArrayAdapter<Herzo>{
+public class HerzoAdapter extends ArrayAdapter<Herzo> {
     /**
      * Create a new {@link HerzoAdapter} object.
      *
-     * @param context is the current context (i.e. Activity) that the adapter is being created in.
+     * @param context   is the current context (i.e. Activity) that the adapter is being created in.
      * @param herzoinfo is the list of {@link Herzo} to be displayed.
      */
     public HerzoAdapter(Context context, ArrayList<Herzo> herzoinfo) {
