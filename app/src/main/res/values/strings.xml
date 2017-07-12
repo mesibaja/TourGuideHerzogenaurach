@@ -2,10 +2,10 @@
     <string name="app_name">Willkommen in Herzogenaurach.</string>
     <!-- Category name for phrases [CHAR LIMIT=20] -->
 
-    <string name="category_Rathaus">Rathaus</string>
+    <string name="category_Rathaus">Rathaus Was erledige ich wo?</string>
 
     <!-- Category name for the first main category -->
-    <string name="category_Leben">Leben</string>
+    <string name="category_Leben">Leben Die Verantwortung für alle Dinge der Abfallentsorgung...</string>
 
     <!-- Category name for the first main category -->
     <string name="category_Entdecken">Entdecken</string>
